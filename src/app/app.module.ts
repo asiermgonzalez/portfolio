@@ -5,12 +5,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { TecnologiasComponent } from './tecnologias/tecnologias.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
     HeaderComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    TecnologiasComponent
    ],
   imports: [
     BrowserModule,
